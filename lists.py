@@ -27,5 +27,20 @@ def check_lists(lista_1, lista_2):
 		return False
 
 
-def list_of_lists(list_of_lists_to_modify):
-    return "ANSWER HERE"  # Remove this line and implement
+def list_of_lists(lista):
+	result = []
+	if len(lista[0]) >= 2:
+		result.append(lista[0][:2])
+	else:
+		result.append(lista[0])
+	if len(lista[1]) >= 4:
+		result.append(lista[1][1:4])
+	elif len(lista[1]) > 1:
+		result.append(lista[1][1:])
+	else:
+		result.append([])
+	if len(lista[2]) >= 2:
+		result.append(lista[2][-2:])
+	else:
+		result.append(lista[2])
+	return result
