@@ -1,9 +1,9 @@
 # Replace the "ANSWER HERE" with your answer
 
 def remove_elements(lista):
-	if lista > 0:
+	if len(lista) > 0:
 		lista.pop(0)
-	if lista > 2:
+	if len(lista) > 2:
 		lista.pop(3)
 	if len(lista) > 2:
 		lista.pop(3)
