@@ -4,7 +4,7 @@ def remove_elements(lista):
 	lista.pop(0)
 	lista.pop(3)
 	if len(lista) > 2:
-	lista.pop(3)
+		lista.pop(3)
 	
 	return lista
 
