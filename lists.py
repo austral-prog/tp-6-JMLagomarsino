@@ -25,8 +25,11 @@ def is_empty(lista):
 
 
 def check_lists(lista_1, lista_2):
-	if lista_1[2] == lista_2[2]:
-		return True
+	if len(lista_1) > 2 and len(lista_2) > 2:
+		if lista_1[2] == lista_2[2]:
+			return True
+		else:
+			return False
 	else:
 		return False
 
