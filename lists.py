@@ -1,19 +1,30 @@
 # Replace the "ANSWER HERE" with your answer
 
-def remove_elements(list_to_remove_elements):
-    return "ANSWER HERE"  # Remove this line and implement
+def remove_elements(lista):
+    lista.pop(0)
+	lista.pop(3)
+	lista.pop(3)
+    return lista
 
 
-def add_elements(list_to_add_elements):
-    return "ANSWER HERE"  # Remove this line and implement
+def add_elements(lista):
+	lista.insert(0,"Pink")
+	lista.append("Yellow")
+	return lista
+
+def is_empty(lista):
+	lista_vacia = []
+	if lista == lista_vacia:
+		return "Es una lista vacía"
+	else:
+		return "No es una lista vacía"
 
 
-def is_empty(list_to_check):
-    return "ANSWER HERE"  # Remove this line and implement
-
-
-def check_lists(list_to_compare1, list_to_compare2):
-    return "ANSWER HERE"  # Remove this line and implement
+def check_lists(lista_1, lista_2):
+	if lista_1[2] == lista_2[2]:
+		return True
+	else:
+		return False
 
 
 def list_of_lists(list_of_lists_to_modify):
