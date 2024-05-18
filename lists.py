@@ -1,11 +1,14 @@
 # Replace the "ANSWER HERE" with your answer
 
 def remove_elements(lista):
+	if len(lista) > 0:
 	lista.pop(0)
+	if len(lista) > 2:
 	lista.pop(3)
+	if len(lista) > 2:
 	lista.pop(3)
+	
 	return lista
-print(remove_elements(['Red', 'Green', 'White', 'Black', 'Pink', 'Yellow']))
 
 def add_elements(lista):
 	lista.insert(0,"Pink")
