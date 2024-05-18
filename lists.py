@@ -16,9 +16,9 @@ def add_elements(lista):
 def is_empty(lista):
 	lista_vacia = []
 	if lista == lista_vacia:
-		return "Es una lista vacía"
+		return True
 	else:
-		return "No es una lista vacía"
+		return False
 
 
 def check_lists(lista_1, lista_2):
