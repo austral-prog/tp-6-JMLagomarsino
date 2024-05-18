@@ -1,14 +1,15 @@
 # Replace the "ANSWER HERE" with your answer
 
 def remove_elements(lista):
-	if len(lista) > 0:
-		lista.pop(0)
-	if len(lista) > 2:
-		lista.pop(3)
-	if len(lista) > 2:
-		lista.pop(3)
-	
-	return lista
+	result = lista[:]
+	if len(result) >= 6:
+		result.pop(5)
+	if len(result) >= 5:
+		result.pop(4)
+	if len(result) >= 1:
+		result.pop(0)
+
+	return result
 
 def add_elements(lista):
 	lista.insert(0,"Pink")
