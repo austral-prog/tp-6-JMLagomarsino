@@ -5,7 +5,7 @@ def remove_elements(lista):
 	lista.pop(3)
 	lista.pop(3)
 	return lista
-
+print(remove_elements(['Red', 'Green', 'White', 'Black', 'Pink', 'Yellow']))
 
 def add_elements(lista):
 	lista.insert(0,"Pink")
